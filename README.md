@@ -99,21 +99,4 @@ Generated APK will be inside:
 build/app/outputs/flutter-apk/app-release.apk
 ```
 
----
 
-## 🤝 Contributing
-
-Pull requests are welcome!
-For major updates, please open an issue first to discuss what you'd like to change.
-
----
-
-## 📄 License
-
-This project is released under the MIT License.
-
----
-
-## ❤️ Support
-
-If this project helped you, consider giving it a **⭐ on GitHub!**
