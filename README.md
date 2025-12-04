@@ -1,16 +1,119 @@
-# google_contact
+# 📱 Flutter Assesment Google Contacts App (with Sqflite)
 
-A new Flutter project.
+A complete Flutter application to manage contacts locally using **Sqflite**.
+Features include adding, editing, deleting, marking favorites, calling contacts, and viewing detailed profiles.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
 
-A few resources to get you started if this is your first Flutter project:
+* 📇 View all contacts
+* ➕ Add new contact (name, phone, email)
+* ✏️ Edit existing contact
+* 🗑 Delete contact with confirmation
+* ⭐ Mark/unmark favorite contacts
+* 📞 Call a contact directly
+* 🗂 Local storage with **sqflite**
+* 🔄 Auto-refresh lists
+* 🧭 Bottom navigation (Contacts + Favorites)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Tech Stack
+
+* **Flutter**
+* **Dart**
+* **Sqflite** (Local Database)
+* **URL Launcher**
+
+---
+
+## 📦 Installation & Setup
+
+Follow the steps below to run the project on your machine:
+
+### 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/IamHarsh02/google_contact
+```
+
+```bash
+cd google_contact
+```
+
+---
+
+### 2️⃣ Install dependencies
+
+Run:
+
+```bash
+flutter pub get
+```
+
+---
+
+### 3️⃣ Run the app on device / emulator
+
+To run in debug mode:
+
+```bash
+flutter run
+```
+
+
+or
+
+```bash
+flutter run -d emulator-5554
+```
+
+---
+
+## 📁 Project Structure
+
+- custom clean architechture 
+
+---
+
+## 🧪 Testing
+
+To run Flutter unit tests:
+
+```bash
+flutter test
+```
+
+---
+
+## 📦 Build Release APK
+
+```bash
+flutter build apk --release
+```
+
+Generated APK will be inside:
+
+```
+build/app/outputs/flutter-apk/app-release.apk
+```
+
+---
+
+## 🤝 Contributing
+
+Pull requests are welcome!
+For major updates, please open an issue first to discuss what you'd like to change.
+
+---
+
+## 📄 License
+
+This project is released under the MIT License.
+
+---
+
+## ❤️ Support
+
+If this project helped you, consider giving it a **⭐ on GitHub!**
