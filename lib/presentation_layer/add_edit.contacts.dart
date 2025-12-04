@@ -58,7 +58,7 @@ class _AddEditContactState extends State<AddEditContact> {
           key: _form,
           child: Column(
             children: [
-              SizedBox(height: 200.0,),
+
               TextFormField(
                 controller: name,
                 decoration: const InputDecoration(labelText: "Name"),
